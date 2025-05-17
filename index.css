@@ -1,0 +1,122 @@
+/* Базовые стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Заголовки */
+h1, h2, h3, h5 {
+    text-align: center;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+/* Общие параграфы */
+p {
+    max-width: 800px;
+    margin: 15px auto;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+/* Изображения */
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* Списки */
+ul {
+    max-width: 600px;
+    margin: 10px auto 30px auto;
+    padding: 0 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* Классы для секций */
+.punkt1, .punkt2, .punkt3, .punkt4, .punkt5 {
+    font-size: 26px;
+    color: #34495e;
+}
+
+.obsc1, .obsc2, .obsc3, .obsc4, .obsc5, .obsc6, .obsc7, .obsc8 {
+    background-color: #ffffff;
+    border-left: 5px solid #3498db;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Таблицы языков */
+.tabl1, .tablPython, .tablJavaScript, .tablJava, .tablC++, .tablC#, .tabl2 {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+/* Классы названий */
+.Pythonlogo, .JavaScriptlogo, .Javalogo, .C++logo, .C#logo {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #27ae60;
+    height: 100px;
+    width: 100px;
+}
+
+.Pythontext, .JavaScripttext, .Javatext, .C++text, .C#text {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin: 15px auto;
+    border-left: 4px solid #27ae60;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+/* Названия проектов */
+.stp1, .drink1, .todo1 {
+    color: #8e44ad;
+    font-size: 20px;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+
+    p, ul {
+        padding: 10px;
+    }
+}
